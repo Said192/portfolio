@@ -1,0 +1,45 @@
+{
+  "name": "Said Wali Khan",
+  "titles": [
+    "Software Engineer",
+    "AI/ML Engineer",
+    "Web Developer"
+  ],
+  "tagline": "I build intelligent products end to end: data, models, APIs, and UIs.",
+  "intro": "Hi, I'm Said! A Software Engineer and AI/ML Engineer from Pakistan. I'm a Software Engineer and AI/ML Engineer with hands-on experience in Machine Learning, Deep Learning, Generative AI, and Computer Vision. From agentic AI and RAG applications to computer-vision systems, I like taking projects end to end, from data and models to APIs and UIs.",
+  "bio": "I completed my BSc in Software Engineering at the University of Malakand and interned as a Software Engineer at Eziline, where I built and evaluated ML/DL models and supported real AI/ML project work. I care about clean architecture, measurable model performance, and interfaces people actually enjoy using.",
+  "objectives": "My goal is to build AI systems that solve real problems by combining solid software engineering with modern machine learning to ship products that are reliable, fast, and useful.",
+  "interests": [
+    "Agentic AI & RAG applications",
+    "Computer Vision",
+    "Generative AI",
+    "Full-stack web engineering"
+  ],
+  "location": "Islamabad, Pakistan",
+  "email": "swalikhan885@gmail.com",
+  "phone": "+92 319 1902794",
+  "avatar": "/avatar.jpg",
+  "resumeUrl": "/resume.pdf",
+  "stats": [
+    {
+      "label": "Years of hands-on coding",
+      "value": 4,
+      "suffix": "+"
+    },
+    {
+      "label": "Projects completed",
+      "value": 10,
+      "suffix": "+"
+    },
+    {
+      "label": "ML/DL models trained",
+      "value": 15,
+      "suffix": "+"
+    },
+    {
+      "label": "Technologies used",
+      "value": 20,
+      "suffix": "+"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+// OPTIONAL — contact-message persistence.
+// The site runs fully without a database. To enable:
+//   1. Set DATABASE_URL in .env
+//   2. npm i prisma @prisma/client
+//   3. npx prisma migrate dev --name init
+//   4. Follow README "Enabling the database" to wire the client
+//      into app/api/contact/route.ts (a commented block is provided).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  createdAt DateTime @default(now())
+}

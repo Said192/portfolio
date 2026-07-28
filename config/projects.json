@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "jobpilot",
+    "title": "JobPilot",
+    "tagline": "AI job search agent",
+    "description": "A full-stack agentic AI application that parses resumes, fetches live listings from legal job APIs, and scores every job against the resume with embedding-based semantic matching and skill-gap analysis. A LangGraph agent layer with 8 nodes (search, matching, resume writing, cover letters, company research, interview coaching) works alongside a RAG pipeline over user documents using ChromaDB.",
+    "cover": "/projects/jobpilot.svg",
+    "features": [
+      "Embedding-based job-to-resume matching with skill-gap analysis",
+      "8-node LangGraph agent layer for the full application workflow",
+      "RAG pipeline over user documents with ChromaDB",
+      "Tailored resumes and cover letters exported as DOCX and PDF",
+      "JWT-authenticated FastAPI backend with a Streamlit UI",
+      "Kanban application tracker, Docker deployment, pytest test suite"
+    ],
+    "tech": [
+      "Python",
+      "LangGraph",
+      "RAG",
+      "ChromaDB",
+      "FastAPI",
+      "Streamlit",
+      "Docker"
+    ],
+    "github": "https://github.com/Said192/jobpilot",
+    "demo": "",
+    "featured": true,
+    "caseStudy": {
+      "problem": "Job hunting is a grind of repetitive, error-prone work: reading dozens of listings, judging fit by gut feeling, rewriting the same resume and cover letter for every application, and losing track of where each one stands. Most of that effort is mechanical, which makes it a perfect target for an agentic AI system.",
+      "approach": "JobPilot treats the whole application pipeline as an agent workflow. A resume parser builds a structured profile, live listings are fetched from legal job APIs, and every job is scored against the profile with embedding-based semantic matching plus a skill-gap analysis. An 8-node LangGraph agent then orchestrates the heavy lifting: search, matching, resume writing, cover letters, company research, and interview coaching, all grounded by a ChromaDB RAG pipeline over the user's own documents so generated content stays truthful to their real experience.",
+      "architectureImage": "/projects/jobpilot-architecture.svg",
+      "results": [
+        "Tailored resumes and cover letters exported as DOCX and PDF per application",
+        "Relevance scoring with skill-gap analysis for every fetched listing",
+        "JWT-authenticated FastAPI backend with a Streamlit interface",
+        "Kanban tracker keeping every application's status in one place",
+        "Reproducible Docker deployment backed by a pytest test suite"
+      ]
+    }
+  },
+  {
+    "slug": "xjmu-ai-consultant",
+    "title": "XJMU AI Consultant",
+    "tagline": "AI-powered consultation assistant",
+    "description": "An AI-powered consultation assistant that answers user queries conversationally using large language models. Prompt and retrieval workflows ground every response in domain knowledge, so guidance about the university, fees, eligibility, and admissions stays accurate and context-aware.",
+    "cover": "/projects/xjmu-ai-consultant.svg",
+    "features": [
+      "Conversational Q&A powered by large language models",
+      "Retrieval workflows grounded in domain knowledge",
+      "Accurate guidance on admissions, fees, and eligibility",
+      "Prompt engineering for context-aware responses"
+    ],
+    "tech": [
+      "Python",
+      "LLMs",
+      "RAG",
+      "Prompt Engineering"
+    ],
+    "github": "https://github.com/Said192/xjmu-ai-consultant",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "slug": "ai-species-explorer",
+    "title": "AI Species Explorer",
+    "tagline": "Computer-vision species identification",
+    "description": "An AI application for exploring and identifying species. Computer vision and machine learning classify uploaded images and surface rich species information, turning a photo into an instant, informative species profile.",
+    "cover": "/projects/ai-species-explorer.svg",
+    "features": [
+      "Image classification with computer vision and ML",
+      "Rich species information surfaced per identification",
+      "Clean upload-and-explore user experience"
+    ],
+    "tech": [
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "TensorFlow"
+    ],
+    "github": "https://github.com/Said192/ai-species-explorer",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "slug": "green-vision",
+    "title": "Green Vision",
+    "tagline": "Final year project: AI smart-park monitoring",
+    "description": "An AI-driven environmental and security monitoring system designed for smart parks. Machine learning and computer vision techniques detect and track environmental and safety conditions across the park in real time.",
+    "cover": "/projects/green-vision.svg",
+    "features": [
+      "Environmental monitoring with computer vision",
+      "Security and safety condition detection",
+      "Real-time detection and tracking pipeline"
+    ],
+    "tech": [
+      "Python",
+      "Computer Vision",
+      "Machine Learning"
+    ],
+    "github": "",
+    "demo": "",
+    "featured": true
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "group": "AI / ML",
+    "items": [
+      {
+        "name": "Machine Learning",
+        "level": 90
+      },
+      {
+        "name": "Deep Learning",
+        "level": 87
+      },
+      {
+        "name": "Generative AI",
+        "level": 88
+      },
+      {
+        "name": "Computer Vision",
+        "level": 85
+      },
+      {
+        "name": "NLP",
+        "level": 82
+      },
+      {
+        "name": "AI Agents (LangGraph)",
+        "level": 86
+      },
+      {
+        "name": "RAG",
+        "level": 88
+      }
+    ]
+  },
+  {
+    "group": "Programming & Data",
+    "items": [
+      {
+        "name": "Python",
+        "level": 93
+      },
+      {
+        "name": "SQL",
+        "level": 82
+      },
+      {
+        "name": "TensorFlow & Keras",
+        "level": 84
+      },
+      {
+        "name": "Scikit-learn",
+        "level": 86
+      },
+      {
+        "name": "Pandas & NumPy",
+        "level": 90
+      },
+      {
+        "name": "Matplotlib & Seaborn",
+        "level": 85
+      },
+      {
+        "name": "Exploratory Data Analysis",
+        "level": 88
+      }
+    ]
+  },
+  {
+    "group": "Tools & Backend",
+    "items": [
+      {
+        "name": "FastAPI",
+        "level": 85
+      },
+      {
+        "name": "Streamlit",
+        "level": 87
+      },
+      {
+        "name": "SQLAlchemy",
+        "level": 78
+      },
+      {
+        "name": "ChromaDB",
+        "level": 80
+      },
+      {
+        "name": "Docker",
+        "level": 78
+      },
+      {
+        "name": "Git & GitHub",
+        "level": 90
+      },
+      {
+        "name": "Next.js & React",
+        "level": 82
+      }
+    ]
+  }
+]
